@@ -20,8 +20,7 @@ BrAmount = 0
 M = [0]*MemSize
 
 Adr= 0
-#filename = input("What file to execute?\n: ")
-filename = 'Hello.bf'
+filename = input("What file to execute?\n: ")
 with open(filename,'r') as file:
     prog = file.read()
     #prog.replace('\n',' ') #remove all newline symbols

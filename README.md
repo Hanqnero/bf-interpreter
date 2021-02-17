@@ -1,1 +1,1 @@
-# Simple Brainfuck inteerpreter written in Python
+# Simple Brainfuck interpreter written in Python

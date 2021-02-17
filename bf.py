@@ -37,7 +37,9 @@ with open(filename,'r') as file:
                 if len(Br) > 0:
                     if not Skip and M[Adr] > 0:
                         pos = Br[-1] # Go back to start of the loop
-                    else: Br.pop(-1) # pop last element
+                    else: 
+                        Br.pop(-1) # pop last element
+                        Skip = False
 
             elif prog[pos] == D['Bracket[']:
                 Skip = M[Adr] == 0

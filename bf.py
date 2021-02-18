@@ -31,8 +31,6 @@ with open(filename,'r') as file:
     while pos < len(prog) - 1:
         pos +=1
         if prog[pos] in D.values():
-            if prog[pos] == D['Whitespace'] or prog[pos] == D['NewLine']:
-                pass
             if prog[pos] == D['Bracket]']:
                 if len(Br) > 0:
                     if not Skip and M[Adr] > 0:

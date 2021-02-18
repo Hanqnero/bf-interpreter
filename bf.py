@@ -75,6 +75,6 @@ with open(filename,'r') as file:
             raise KeyError
 
 
-    print('\n' + '-' * MemSize * 3 + 2 * '-')
+    print('\n' + '-' * len(str(M)))
     print(M)
-    print('-' * MemSize * 3 + 2 * '-')
+    print('-' * len(str(M)))
